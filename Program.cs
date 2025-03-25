@@ -16,7 +16,7 @@ class Program
         }
 
         string outputPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "output.txt");
-        string[] extensions = { ".cs", ".csproj", ".cpp", ".h", ".java", ".py" };
+        string[] extensions = { ".cs", ".csproj" };
 
         try
         {
